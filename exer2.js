@@ -1,7 +1,4 @@
-let soma = 0;
+const soma = require("./exer1");
 
-for (let i = 0; i <= 5; i++) {
-    soma += i;
-}
-
-console.log(soma);
+const resultado = soma(5,6);
+console.log(resultado)

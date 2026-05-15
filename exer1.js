@@ -1,5 +1,7 @@
 
 
-for (let i = 1; i <= 10; i++) {
-    console.log(i)
+function soma(a,b) {
+    return a + b;
+    
 }
+module.exports = soma; 
